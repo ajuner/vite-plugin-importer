@@ -1,7 +1,8 @@
 {
-  "name": "vite-plugin-import",
-  "version": "0.1.0",
-  "main": "./src/index.js",
+  "name": "vite-plugin-importer",
+  "version": "0.0.3",
+  "main": "src/index.js",
+  "description": "use babel-plugin-import in vite",
   "author": "ajuner",
   "homepage": "https://github.com/ajuner/vite-plugin-import",
   "keywords": [

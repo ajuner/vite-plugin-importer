@@ -1,6 +1,6 @@
-import babelImport from 'babel-plugin-import';
-import babel from '@babel/core';
-import importMeta from '@babel/plugin-syntax-import-meta';
+const babelImport = require('babel-plugin-import');
+const babel = require('@babel/core');
+const importMeta = require('@babel/plugin-syntax-import-meta');
 
 function usePluginImport(options){
 
@@ -27,4 +27,4 @@ function usePluginImport(options){
   };
 };
 
-export default usePluginImport
+module.exports = usePluginImport

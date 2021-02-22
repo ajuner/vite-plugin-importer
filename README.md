@@ -4,10 +4,12 @@ use babel-plugin-import in vite
 
 ## use
 
+config same as [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
+
 ```js
 // vite.config.js
 import { defineConfig } from "vite";
-import usePluginImport from './src/index.js'
+import usePluginImport from 'vite-plugin-importer'
 export default defineConfig({
   plugins: [
     ... // other plugins
