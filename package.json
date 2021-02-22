@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-import",
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "author": "ajuner",
+  "homepage": "https://github.com/ajuner/vite-plugin-import",
+  "keywords": [
+    "babel-plugin-import",
+    "vite"
+  ],
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajuner/vite-plugin-import",
+    "branch": "main"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "babel-plugin-import": "^1.13.3"
+  }
+}
