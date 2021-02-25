@@ -27,3 +27,6 @@ export default defineConfig({
 })
 
 ```
+
+## LICENSE
+[MIT](./LICENSE)
