@@ -5,7 +5,7 @@ const importMeta = require('@babel/plugin-syntax-import-meta');
 function usePluginImport(options){
 
   return {
-    name: 'vite-plugin-import',
+    name: 'vite-plugin-importer',
 
     transform(code, id) {
 
