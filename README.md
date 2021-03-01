@@ -1,6 +1,6 @@
 # vite-plugin-importer
 
-use babel-plugin-import in vite
+Integration for babel-plugin-import
 
 ## use
 
