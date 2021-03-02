@@ -7,8 +7,8 @@ Integration for babel-plugin-import
 config same as [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)
 
 ```
-npm install vite-plugin-impoter --save
-yarn add vite-plugin-impoter
+npm install vite-plugin-importer --save
+yarn add vite-plugin-importer
 ```
 
 ```js
