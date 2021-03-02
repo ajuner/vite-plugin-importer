@@ -19,19 +19,9 @@ export default defineConfig({
   plugins: [
     ... // other plugins
     usePluginImport({
-      libraryName: "antd",
-      libraryDirectory: "lib",
-      style: true,
-    }),
-    usePluginImport({
       libraryName: "ant-design-vue",
       libraryDirectory: "es",
       style: "css",
-    }),
-    usePluginImport({
-      libraryName: "vant",
-      libraryDirectory: "es",
-      style: true
     }),
   ];
 })
@@ -39,4 +29,5 @@ export default defineConfig({
 ```
 
 ## LICENSE
+
 [MIT](./LICENSE)
