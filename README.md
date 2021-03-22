@@ -23,6 +23,11 @@ export default defineConfig({
       libraryDirectory: "es",
       style: "css",
     }),
+    usePluginImport({
+      libraryName: "antd",
+      libraryDirectory: "es",
+      style: "css",
+    }),
   ];
 })
 
