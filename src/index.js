@@ -9,7 +9,7 @@ function usePluginImport(options) {
 
     transform(code, id) {
 
-      if (/\.[j|t][sx|s]|vue$/.test(id)) {
+      if (/\.(?:[jt]sx?|vue)$/.test(id)) {
         const plugins = [importMeta, [babelImport, options]]
 
         const result = babel.transformSync(code, {
