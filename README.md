@@ -28,6 +28,11 @@ export default defineConfig({
       libraryDirectory: "es",
       style: "css",
     }),
+    usePluginImport({
+      libraryName: 'vant',
+      libraryDirectory: 'es',
+      style: (name) => `${name}/style/less`,
+    }),
   ];
 })
 
