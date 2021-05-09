@@ -33,6 +33,10 @@ export default defineConfig({
       libraryDirectory: 'es',
       style: (name) => `${name}/style/less`,
     }),
+    ViteImport({
+      libraryName: 'element-plus',
+      style: true
+    }),
   ];
 })
 
