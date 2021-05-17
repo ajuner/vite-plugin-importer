@@ -34,8 +34,14 @@ export default defineConfig({
       style: (name) => `${name}/style/less`,
     }),
     usePluginImport({
-      libraryName: 'element-plus',
-      style: true
+      libraryName: "element-plus",
+      libraryDirectory: "es",
+      customStyleName: (name) => {
+        if (name === 'locale') {
+          return `element-plus/packages/theme-chalk/src/button.scss`
+        }
+        return `element-plus/packages/theme-chalk/src/${name.replace('el-','')}.scss`;
+      },
     }),
   ];
 })
