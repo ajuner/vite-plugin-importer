@@ -34,10 +34,10 @@ export default defineConfig({
       style: (name) => `${name}/style/less`,
     }),
     usePluginImport({
-			libraryName: "element-plus",
-			customName: (name) => {
-				return `element-plus/packages/theme-chalk/src/${name.split('-')[1]}.scss`
-			},
+      libraryName: "element-plus",
+      customName: (name) => {
+	return `element-plus/packages/theme-chalk/src/${name.split('-')[1]}.scss`
+      },
     }),
   ];
 })
