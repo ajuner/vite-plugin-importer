@@ -33,12 +33,7 @@ export default defineConfig({
       libraryDirectory: 'es',
       style: (name) => `${name}/style/less`,
     }),
-    usePluginImport({
-      libraryName: "element-plus",
-      customName: (name) => {
-	return `element-plus/packages/theme-chalk/src/${name.split('-')[1]}.scss`
-      },
-    }),
+    // Other configurations welcome PR
   ];
 })
 
