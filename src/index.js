@@ -13,7 +13,6 @@ function usePluginImport(options) {
         const plugins = [importMeta, [babelImport, options]]
 
         const result = babel.transformSync(code, {
-          configFile: false,
           ast: true,
           plugins,
           sourceFileName: id
