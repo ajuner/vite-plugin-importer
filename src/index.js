@@ -9,7 +9,7 @@ function usePluginImport(options) {
 
     transform(code, id) {
 
-      if (/\.(?:[jt]sx?|vue)$/.test(id)) {
+      if (/\.(?:[jt]sx?|vue)$/.test(id) && !/node_modules\/vite/.test(id)) {
         const plugins = [importMeta, [babelImport, options]]
 
         const result = babel.transformSync(code, {
