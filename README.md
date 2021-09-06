@@ -45,6 +45,11 @@ export default defineConfig({
 
 ```
 
+## Better choice
+
+[unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+
 ## LICENSE
 
 [MIT](./LICENSE)
+
