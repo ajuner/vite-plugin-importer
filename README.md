@@ -21,12 +21,12 @@ export default defineConfig({
     usePluginImport({
       libraryName: "ant-design-vue",
       libraryDirectory: "es",
-      style: "css",
+      style: true,
     }),
     usePluginImport({
       libraryName: "antd",
       libraryDirectory: "es",
-      style: "css",
+      style: true,
     }),
     usePluginImport({
       libraryName: 'vant',
