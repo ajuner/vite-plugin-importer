@@ -1,5 +1,8 @@
 # vite-plugin-importer
 
+[![NPM version](https://img.shields.io/npm/v/vite-plugin-importer.svg)](https://npmjs.org/package//vite-plugin-importer)
+[![NPM Downloads](https://img.shields.io/npm/dm/vite-plugin-importer.svg)](https://npmjs.org/package//vite-plugin-importer)
+
 Integration for babel-plugin-import
 
 ## use
