@@ -41,6 +41,12 @@ export default defineConfig({
       customStyleName: (name) => {
         return `element-plus/lib/theme-chalk/${name}.css`;
       },
+    }),
+    usePluginImport({
+      libraryName: "@arco-design/web-react",
+      libraryDirectory: 'es',
+      camel2DashComponentName: false,
+      style: true,
     })
     // Other configurations welcome PR
   ];
