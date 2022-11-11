@@ -15,7 +15,8 @@ function usePluginImport(options) {
         const result = babel.transformSync(code, {
           ast: true,
           plugins,
-          sourceFileName: id
+          sourceFileName: id,
+          sourceMaps: true
         })
 
         return {
