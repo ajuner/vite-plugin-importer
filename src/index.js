@@ -2,7 +2,7 @@ const babelImport = require('babel-plugin-import');
 const babel = require('@babel/core');
 const importMeta = require('@babel/plugin-syntax-import-meta');
 
-function usePluginImport(options) {
+function usePluginImport(options, transformOptions) {
 
   return {
     name: 'vite-plugin-importer',
@@ -15,7 +15,9 @@ function usePluginImport(options) {
         const result = babel.transformSync(code, {
           ast: true,
           plugins,
-          sourceFileName: id
+          sourceFileName: id,
+          // support for custom babel options
+          ...transformOptions
         })
 
         return {
